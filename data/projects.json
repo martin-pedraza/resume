@@ -5,5 +5,33 @@
         "website": "https://martin-pedraza.github.io/the-game/",
         "description": "A minimalist game",
         "stack": ["HTML"]
+    },
+    {
+        "title": "PreLink",
+        "github": "https://github.com/martin-pedraza/prelink",
+        "website": "",
+        "description": "A browser extension that displays a summary of a link",
+        "stack": ["HTML, JavaScript"]
+    },
+    {
+        "title": "Paginex",
+        "github": "https://github.com/martin-pedraza/paginex",
+        "website": "https://www.npmjs.com/package/paginex",
+        "description": "A lightweight pagination library for TypeScript/JavaScript",
+        "stack": ["TypeScript"]
+    },
+    {
+        "title": "Courses",
+        "github": "https://github.com/martin-pedraza/courses",
+        "website": "https://courses-p8h9.onrender.com",
+        "description": "A personal collection of programming course certificates",
+        "stack": ["Markdown", "Express"]
+    },
+    {
+        "title": "Pokedex",
+        "github": "https://github.com/martin-pedraza/pokedex",
+        "website": "https://pokedex-5to0.onrender.com",
+        "description": "A personal pokedex",
+        "stack": ["EJS", "Express", "JSON"]
     }
 ]
