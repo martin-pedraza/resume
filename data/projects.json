@@ -1,0 +1,9 @@
+[
+    {
+        "title": "The Game",
+        "github": "https://github.com/martin-pedraza/the-game",
+        "website": "https://martin-pedraza.github.io/the-game/",
+        "description": "A minimalist game",
+        "stack": ["HTML"]
+    }
+]

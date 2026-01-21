@@ -1,0 +1,45 @@
+{
+  "header": {
+    "name": "Martin Diego Pedraza",
+    "contact": {
+      "location": "Buenos Aires, Argentina",
+      "phone": "+54 11 4066 1013",
+      "linkedin": "https://www.linkedin.com/in/pedraza-martindiego/",
+      "github": "https://github.com/martin-pedraza",
+      "email": "pedraza.martindiego@gmail.com"
+    },
+    "summary": "A passionate backend developer from Argentina with specialized experience in Node.js. I am committed to technical excellence and contributing to the success of web projects."
+  },
+  "experience": [
+    {
+      "company": "Consultoria Global S.A.",
+      "position": "Backend Developer",
+      "location": "Buenos Aires, Argentina",
+      "startDate": "September 2024",
+      "endDate": "Present",
+      "description": "Developed various application programming interfaces for the functionalities of an international bank.",
+      "stack": ["NodeJS", "NestJS", "TypeORM"]
+    },
+    {
+      "company": "Accenture S.R.L.",
+      "position": "Software Developer",
+      "location": "Buenos Aires, Argentina",
+      "startDate": "March 2024",
+      "endDate": "September 2024",
+      "description": "Created an internal web platform for managing Operations area metrics, improving access to information and decision-making for management.",
+      "stack": ["Angular", "ExpressJS", "Sequalize.js"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "UNIVERSIDAD TECNOLOGICA NACIONAL",
+      "degree": "University Technician in Programming",
+      "location": "Buenos Aires, Argentina",
+      "graduationDate": "December 2023"
+    }
+  ],
+  "skills": [
+    "Portuguese Teacher",
+    "English Proficiency - B2 Level"
+  ]
+}
