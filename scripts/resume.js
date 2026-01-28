@@ -9,6 +9,23 @@ document.addEventListener('mousemove', (e) => {
     }
 });
 
+document.getElementById('downloadBtn').addEventListener('click', () => {
+    const pdfUrl = '../pdf/martin-pedraza.pdf';
+    fetch(pdfUrl)
+        .then(response => response.blob())
+        .then(blob => {
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'martin-pedraza.pdf';
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+            document.body.removeChild(a);
+        })
+        .catch(error => console.error('Error descargando PDF:', error));
+});
+
 fetch('../data/resume.json')
     .then(response => response.json())
     .then(data => {
